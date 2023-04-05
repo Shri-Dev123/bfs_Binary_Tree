@@ -111,7 +111,6 @@ async function insertData() {
       value: 'F',
     },
   ];
-  
   await collection.insertMany(nodes);
 }
 

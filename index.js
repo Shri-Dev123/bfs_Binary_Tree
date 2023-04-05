@@ -36,7 +36,7 @@ async function breadthFirstSearch(startNodeValue) {
       queue.push(node.right.value);
     }
   }
-
+console.log(queue)
   client.close();
 }
 
